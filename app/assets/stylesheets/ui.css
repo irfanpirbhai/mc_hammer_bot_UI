@@ -1,0 +1,59 @@
+.main-control {
+  left: 500px;
+  top: 150px;
+  position: absolute;
+}
+
+.strafe-control {
+  left: 200px;
+  top: 400px;
+  position: absolute;
+}
+
+div > div {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px; 
+  background-color: rgb(211, 80, 80);
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 1em;
+}
+
+.selected {
+  width: 110px;
+  height: 110px; 
+  background-color: rgb(172, 33, 33);
+  font-size: 1.25em; 
+}
+
+.move-forward {
+  left: 100px;
+  position: relative;
+}
+
+.move-backward {
+  left: 100px;
+  position: relative;
+}
+
+.turn-left {
+  position: relative;
+}
+
+.turn-right {
+  position: relative;
+}
+
+.stop {
+  position: relative;
+}
+
+.strafe-left {
+  position: relative;
+}
+
+.strafe-right {
+  position: relative;
+}
